@@ -91,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/rk2818/proprietary/libopencore_mp4local.so:system/lib/libopencore_mp4local.so \
     vendor/rockchip/rk2818/proprietary/libopencore_mp4localreg.so:system/lib/libopencore_mp4localreg.so \
     vendor/rockchip/rk2818/proprietary/libopencore_net_support.so:system/lib/libopencore_net_support.so \
-    vendor/rockchip/rk2818/proprietary/libopencore_player.so:system/lib/libopencore_player.so \
     vendor/rockchip/rk2818/proprietary/libopencore_rmlocal.so:system/lib/libopencore_rmlocal.so \
     vendor/rockchip/rk2818/proprietary/libopencore_rmlocalreg.so:system/lib/libopencore_rmlocalreg.so \
     vendor/rockchip/rk2818/proprietary/libopencore_rtsp.so:system/lib/libopencore_rtsp.so \
@@ -126,3 +125,5 @@ PRODUCT_COPY_FILES += \
     vendor/rockchip/rk2818/proprietary/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
     vendor/rockchip/rk2818/proprietary/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     vendor/rockchip/rk2818/proprietary/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
+
+# libopencore_player.so is installed by the device PV compatibility module.
